@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parfumea - Katalog Parfum</title>
+  <meta name="description" content="Katalog parfum Dior, YSL, dan Jo Malone di Parfumea.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <header class="header">
+    <a href="#" class="brand">
+      <!-- GANTI: simpan logomu di images/logo.png -->
+      <img src="img/logo.png" alt="Logo Parfumea" class="logo-img"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='grid'">
+      <span class="logo-fallback"><i class="fa-solid fa-spray-can-sparkles"></i></span>
+      <span class="brand-name">Parfumea</span>
+    </a>
+  </header>
+
+  
+  <section class="hero">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <p class="hero-sub"><i class="fa-solid fa-heart"></i> Koleksi Eksklusif <i class="fa-solid fa-heart"></i></p>
+    <h1>Temukan Aroma Yang <em>Mewakili Dirimu</em></h1>
+    <p class="hero-desc">Dior, Yves Saint Laurent, dan Jo Malone London dalam satu katalog.</p>
+  </section>
+
+ 
+  <nav class="filter" aria-label="Filter brand">
+    <button class="filter-btn active" data-brand="all">Semua</button>
+    <button class="filter-btn" data-brand="Dior">Dior</button>
+    <button class="filter-btn" data-brand="YSL">YSL</button>
+    <button class="filter-btn" data-brand="Jo Malone">Jo Malone</button>
+  </nav>
+
+  <main class="catalog" id="catalog">
+
+
+
+    <article class="card" data-brand="Dior" data-name="Sauvage" data-price="Rp 1.850.000" data-size="100 ml"
+             data-notes="Bergamot, Lada Sichuan, Ambroxan"
+             data-desc="Aroma maskulin segar dan tegas dengan sentuhan bergamot yang bersih. Cocok untuk dipakai harian maupun acara malam.">
+      <div class="card-img">
+        <img src="img/produk1.jpg" alt="Dior Sauvage" onerror="this.style.display='none'">
+        <span class="badge">Dior</span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Sauvage</h3>
+        <span class="card-type">Eau de Toilette &bull; 100 ml</span>
+        <p class="card-price">Rp 1.850.000</p>
+        <button class="btn btn-detail">Lihat Detail</button>
+      </div>
+    </article>
+
+    <article class="card" data-brand="Dior" data-name="J'adore" data-price="Rp 2.100.000" data-size="100 ml"
+             data-notes="Ylang-ylang, Mawar, Jasmine"
+             data-desc="Wangi bunga yang mewah dan feminin. Lembut, elegan, dan meninggalkan kesan hangat.">
+      <div class="card-img">
+        <img src="img/produk2.jpg" alt="Dior J'adore" onerror="this.style.display='none'">
+        <span class="badge">Dior</span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">J'adore</h3>
+        <span class="card-type">Eau de Parfum &bull; 100 ml</span>
+        <p class="card-price">Rp 2.100.000</p>
+        <button class="btn btn-detail">Lihat Detail</button>
+      </div>
+    </article>
+
+    <article class="card" data-brand="Dior" data-name="Miss Dior Blooming Bouquet" data-price="Rp 1.750.000" data-size="100 ml"
+             data-notes="Peony, Mawar Damask, Musk Putih"
+             data-desc="Aroma bunga ringan dan manis seperti buket segar. Pas untuk tampilan manis dan ceria.">
+      <div class="card-img">
+        <img src="img/produk3.jpg" alt="Dior Miss Dior Blooming Bouquet" onerror="this.style.display='none'">
+        <span class="badge">Dior</span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Miss Dior Blooming Bouquet</h3>
+        <span class="card-type">Eau de Toilette &bull; 100 ml</span>
+        <p class="card-price">Rp 1.750.000</p>
+        <button class="btn btn-detail">Lihat Detail</button>
+      </div>
+    </article>
+
+    <article class="card" data-brand="YSL" data-name="Libre" data-price="Rp 1.950.000" data-size="90 ml"
+             data-notes="Lavender, Bunga Jeruk, Vanila"
+             data-desc="Perpaduan lavender dan bunga jeruk yang berani, simbol kebebasan dan percaya diri.">
+      <div class="card-img">
+        <img src="img/produk4.jpg" alt="YSL Libre" onerror="this.style.display='none'">
+        <span class="badge">YSL</span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Libre</h3>
+        <span class="card-type">Eau de Parfum &bull; 90 ml</span>
+        <p class="card-price">Rp 1.950.000</p>
+        <button class="btn btn-detail">Lihat Detail</button>
+      </div>
+    </article>
+
+    <article class="card" data-brand="YSL" data-name="Y" data-price="Rp 1.900.000" data-size="100 ml"
+             data-notes="Apel, Jahe, Sage, Tonka"
+             data-desc="Wangi pria modern yang segar dan bersih dengan sentuhan kayu yang hangat.">
+      <div class="card-img">
+        <img src="img/produk5.jpg" alt="YSL Y" onerror="this.style.display='none'">
+        <span class="badge">YSL</span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Y</h3>
+        <span class="card-type">Eau de Parfum &bull; 100 ml</span>
+        <p class="card-price">Rp 1.900.000</p>
+        <button class="btn btn-detail">Lihat Detail</button>
+      </div>
+    </article>
+
+    <article class="card" data-brand="YSL" data-name="Black Opium" data-price="Rp 2.000.000" data-size="90 ml"
+             data-notes="Kopi, Vanila, Bunga Putih"
+             data-desc="Aroma kopi dan vanila yang manis, adiktif, dan sangat cocok untuk malam hari.">
+      <div class="card-img">
+        <img src="img/produk6.jpg" alt="YSL Black Opium" onerror="this.style.display='none'">
+        <span class="badge">YSL</span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Black Opium</h3>
+        <span class="card-type">Eau de Parfum &bull; 90 ml</span>
+        <p class="card-price">Rp 2.000.000</p>
+        <button class="btn btn-detail">Lihat Detail</button>
+      </div>
+    </article>
+
+
+    <article class="card" data-brand="Jo Malone" data-name="English Pear &amp; Freesia" data-price="Rp 2.300.000" data-size="100 ml"
+             data-notes="Pir, Freesia, Patchouli"
+             data-desc="Aroma pir yang juicy berpadu freesia lembut. Segar, manis, dan klasik.">
+      <div class="card-img">
+        <img src="img/produk7.jpg" alt="Jo Malone English Pear &amp; Freesia" onerror="this.style.display='none'">
+        <span class="badge">Jo Malone</span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">English Pear &amp; Freesia</h3>
+        <span class="card-type">Cologne &bull; 100 ml</span>
+        <p class="card-price">Rp 2.300.000</p>
+        <button class="btn btn-detail">Lihat Detail</button>
+      </div>
+    </article>
+
+    <article class="card" data-brand="Jo Malone" data-name="Wood Sage &amp; Sea Salt" data-price="Rp 2.300.000" data-size="100 ml"
+             data-notes="Ambrette, Garam Laut, Sage"
+             data-desc="Wangi pantai berangin yang tenang dan natural, dengan sentuhan kayu dan garam laut.">
+      <div class="card-img">
+        <img src="img/produk8.jpg" alt="Jo Malone Wood Sage &amp; Sea Salt" onerror="this.style.display='none'">
+        <span class="badge">Jo Malone</span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Wood Sage &amp; Sea Salt</h3>
+        <span class="card-type">Cologne &bull; 100 ml</span>
+        <p class="card-price">Rp 2.300.000</p>
+        <button class="btn btn-detail">Lihat Detail</button>
+      </div>
+    </article>
+
+    <article class="card" data-brand="Jo Malone" data-name="Peony &amp; Blush Suede" data-price="Rp 2.300.000" data-size="100 ml"
+             data-notes="Peony, Apel Merah, Suede"
+             data-desc="Bunga peony yang lembut berpadu suede halus. Romantis dan elegan.">
+      <div class="card-img">
+        <img src="img/produk9.jpg" alt="Jo Malone Peony &amp; Blush Suede" onerror="this.style.display='none'">
+        <span class="badge">Jo Malone</span>
+      </div>
+      <div class="card-body">
+        <h3 class="card-name">Peony &amp; Blush Suede</h3>
+        <span class="card-type">Cologne &bull; 100 ml</span>
+        <p class="card-price">Rp 2.300.000</p>
+        <button class="btn btn-detail">Lihat Detail</button>
+      </div>
+    </article>
+
+  </main>
+
+
+  <footer class="footer">
+    <h2>Hubungi Kami</h2>
+    <p>Pesan atau tanya produk lewat sosial media kami.</p>
+    <div class="socials">
+      <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" class="social wa">
+        <i class="fa-brands fa-whatsapp"></i><span>WhatsApp</span>
+      </a>
+      <a href="https://instagram.com/usernameigkamu" target="_blank" rel="noopener" class="social ig">
+        <i class="fa-brands fa-instagram"></i><span>Instagram</span>
+      </a>
+      <a href="https://tiktok.com/@usernametiktokkamu" target="_blank" rel="noopener" class="social tt">
+        <i class="fa-brands fa-tiktok"></i><span>TikTok</span>
+      </a>
+    </div>
+    <p class="copy"><span id="year"></span> Parfumea. Made with <i class="fa-solid fa-heart"></i></p>
+  </footer>
+
+ 
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Tutup"></button>
+      <div class="modal-img"><img id="mImg" alt=""></div>
+      <div class="modal-info">
+        <span class="modal-brand" id="mBrand"></span>
+        <h3 id="mName"></h3>
+        <p class="modal-price" id="mPrice"></p>
+        <p class="modal-desc" id="mDesc"></p>
+        <ul class="modal-meta">
+          <li><b>Ukuran:</b> <span id="mSize"></span></li>
+          <li><b>Aroma:</b> <span id="mNotes"></span></li>
+        </ul>
+        <a href="#" target="_blank" rel="noopener" class="btn btn-wa" id="mOrder">
+          <i class="fa-brands fa-whatsapp"></i> Pesan via WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
